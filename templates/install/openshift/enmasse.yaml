@@ -983,19 +983,19 @@ objects:
     value: '50'
   - description: The image to use for the configuration service
     name: CONFIGSERV_REPO
-    value: docker.io/enmasseproject/configserv:latest
+    value: docker.io/gordons/configserv:latest
   - description: The docker image to use for the queue scheduler
     name: QUEUE_SCHEDULER_REPO
-    value: docker.io/enmasseproject/queue-scheduler:latest
+    value: docker.io/gordons/queue-scheduler:latest
   - description: The image to use for the router agent
     name: RAGENT_REPO
-    value: docker.io/enmasseproject/ragent:latest
+    value: docker.io/gordons/ragent:latest
   - description: The image to use for the subscription services
     name: SUBSERV_REPO
     value: docker.io/enmasseproject/subserv:latest
   - description: The image to use for the console
     name: CONSOLE_REPO
-    value: docker.io/enmasseproject/console:latest
+    value: docker.io/gordons/console:latest
   - description: The hostname to use for the exposed route for messaging
     name: MESSAGING_HOSTNAME
   - description: The image to use for the MQTT gateway
@@ -1119,4 +1119,4 @@ parameters:
   value: 'false'
 - description: The docker image to use for the address controller
   name: ADDRESS_CONTROLLER_REPO
-  value: docker.io/enmasseproject/address-controller:latest
+  value: docker.io/gordons/address-controller:latest
